@@ -1,3 +1,5 @@
+'''
 Boolean values can be one of only two values: true or false. They’re especially useful with conditional statements, which cause sections of code to run only if a condition is true or false. (We’ll look at conditionals in the next chapter.)
 
 Example in Hello World.go
+'''
