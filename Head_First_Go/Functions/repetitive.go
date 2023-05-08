@@ -11,20 +11,20 @@ func main() {
 	area = width * height
 
 	fmt.Println(area/10.0, "liters needed")
-	fmt.Printf("%f liters needed\n",area/10.0)
+	fmt.Printf("%f liters needed\n", area/10.0)
 
 	width = 5.2
 	height = 3.5
 	area = width * height
 
 	fmt.Println(area/10.0, "liters needed")
-	fmt.Printf("%f liters needed\n",area/10.0)
+	fmt.Printf("%f liters needed\n", area/10.0)
 
-	fmt.Printf("%12s | %s\n", "Product","Cost in Cents")
+	fmt.Printf("%12s | %s\n", "Product", "Cost in Cents")
 	fmt.Println("------------------------------------")
-	fmt.Printf("%12s | %2d\n", "Stamps",50)
-	fmt.Printf("%12s | %2d\n", "Paper Clips",5)
-	fmt.Printf("%12s | %2d\n", "Tape",99)
+	fmt.Printf("%12s | %2d\n", "Stamps", 50)
+	fmt.Printf("%12s | %2d\n", "Paper Clips", 5)
+	fmt.Printf("%12s | %2d\n", "Tape", 99)
 
 }
 
@@ -54,5 +54,4 @@ If we had used %1.1f instead, the output would have been 3.1 without any leading
 
 6) Add .2 in paint
 
-*/
 */
