@@ -31,3 +31,9 @@ func main() {
 	celcius := (farhrenheit - 32) * 5 / 9
 	fmt.Printf("%0.2f degrees celcisus\n", celcius)
 }
+
+/*
+
+Same Function as of pass_fail.go to convert F to C
+
+*/
