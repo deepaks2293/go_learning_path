@@ -38,6 +38,7 @@ func main() {
 }
 
 /*
+The program is refrered from Chapter 2 (pass_fail.go) only diffrence is Getting value from CLI in float64 is converted in funtion
 
 1) the Println function, Print doesn’t skip to a new terminal line after printing a message, which lets us keep the prompt and the user’s entry on the same line.
 
