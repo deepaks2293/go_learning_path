@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func startRepl() {
+func StartRepl() {
 	// To take argument
 	reader := bufio.NewScanner(os.Stdin)
 	for {
@@ -65,29 +65,22 @@ func getCommands() map[string]cliCommand {
 		"help": {
 			name:        "help",
 			description: "Displays a help message",
-			callback:    commandHelp,
+			callback:    CommandHelp,
 		},
 		"exit": {
 			name:        "exit",
 			description: "Exit the Pokedex",
-			callback:    commandExit,
+			callback:    CommandExit,
+		},
+		"map": {
+			name:        "map",
+			description: "Displays the names of 20 location areas in the Pokemon world",
+			callback:    CommandMap,
+		},
+		"mapb": {
+			name:        "mapb",
+			description: "Displays the previous 20 locations areas in the Pokemon world",
+			callback:    CommandExit,
 		},
 	}
 }
-
-// func commandExit() error {
-// 	os.Exit(0)
-// 	return nil
-// }
-
-// func commandHelp() error {
-// 	fmt.Println()
-// 	fmt.Println("Welcome to the Pokedex!")
-// 	fmt.Println("Usage:")
-// 	fmt.Println()
-// 	for _, cmd := range getCommands() {
-// 		fmt.Printf("%s: %s\n", cmd.name, cmd.description)
-// 	}
-// 	fmt.Println()
-// 	return nil
-// }
